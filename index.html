@@ -4,128 +4,257 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lachlan Whelan</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Aleo|Amatic+SC" rel="stylesheet">
-    
+    <title>Lachlan Whelan | Front End Developer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-<div class="container">
-            <header>
-                <div class="intro">
-                    <h2>Hi!.</h2>
-                    <h3>My name is Lachlan. I am a full-stack developer</h3>
-                </div>
 
-                <div class="intro-image"><img src="images/logo.png" alt="Cartoon Me"/></div>
-            </header>
-    
-    
-            <section class="what-i-do">
-                <div class="header">
-                    <h3>So What Can I Do?</h3>
-                </div>
-    
-                <div class="front-end">
-                    <h3>The Front-End.</h3>
-                    <p>I like simple design. My goals are to focus on typography, 
-                        content and conveying the message that you want to send.
-                    </p>
-                </div>
-                
-                <div class="wrapper">
-                    
-                        <div class="image image-1">
-                                <img class="show" src="images/design.png" alt="design"/>
-                                <img class="point" src="images/point.png" alt="design"/>
-                                <img class="point-down" src="images/point-down.png" alt="design"/>
-                        </div>
-
-
-                        <div class="info">
-                                <i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
-                            <div class="sub-info" >
-                                    <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
-                                    <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                </div>
-
-
-    
-    
-                <div class="back-end">
-                    <h3>The Back-End.</h3>
-                    <p>I know how to create your website to run across 
-                        devices using the latest technologies available.
-                    </p>
-                </div>
-                <div class="wrapper">
-
-                <div class="info-2">
-                         <i class=" first-i fa fa-code fa-5x" aria-hidden="true"></i>
-
-                    <div class="sub-info">
-                        <i class="chart fa fa-pie-chart fa-5x" aria-hidden="true"></i>
-                        <i class="data fa fa-database fa-5x" aria-hidden="true"></i>
-                    </div>
-
-                </div>
-
-                    <div class="image">
-                        <img src="images/develop.png" alt="develop"/>
-                    </div>
-                    
-                </div>
+    <header class="header">
+        <div class="header-grp pad-2">
+            <a class="logo"><img src="images/logo.png"/></a>
+            <a href="#contact">
+                    <button class="btn">Contact Me</button>
+            </a>
+        </div>
         
-    
-    
-            </section> 
-    
-    
-            <section class="end-note">
+        <div class="main-heading text-center">
+            <h1 class="heading-primary">Lachlan <span class="shift">Whelan</span></h1>
+            <h3 class="heading-secondary">Front End Developer</h3>
+            <a class="m-2" href="#projects"><button class="btn">See Projects</button></a>
+        </div>
+        
+    </header>
 
 
-        <!-- Begin Mailchimp Signup Form -->
-                    <style type="text/css">
-                        #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
-                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                    </style>
-            <div id="mc_embed_signup">
-                    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=7ca6898a09e4e94507c78c8b1&amp;id=9b7680c011" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7ca6898a09e4e94507c78c8b1_9b7680c011" tabindex="-1" value=""></div>
-                        <div class="clear"><input class="mybtn " type="submit" value="Find Out More" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                        </div>
-                    </form>
+    <section class="about section text-center pad-2">
+        <h2 class="title text-center  mt-5">KNOWLEDGE</h2>
+        
+        <div class="cards">
+            
+            <div class="info-card ">
+                <h3>Front End</h3>
+                
+                <img class="infograph" src="images/webpage-infograph.png"/>
+
+
+                <ul class="list">
+                    <li>Html</li>
+                    <li>Css3/Sass</li>
+                    <li>Javascript</li>
+                </ul>
             </div>
 
-        <!--End mc_embed_signup-->
 
+            <div class="info-card ">
+                <h3>Deployment</h3>
+
+                <img class="infograph" src="images/cloud-infograph.png"/>
+
+
+                <ul class="list">
+                    <li>Git</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+
+            <div class="info-card ">
+                    <h3>Frameworks</h3>
     
-               
-            </section>
+                    <img class="infograph" src="images/framework.png"/>
+    
+    
+                    <ul class="list">
+                        <li>Bootstrap</li>
+                        <li>React/Redux</li>
+                    </ul>
+            </div>
+
+        </div>
+
+    </section>
 
 
-</div>
+    <section class="projects">
 
+        <h2 id="projects" class="title text-center ">PROJECTS</h2>
 
+        <div class="project-grid">
 
-<footer>
             
-        <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></i></a>
-        <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-    
-</footer>
+        <div class="project-card pad-1 m-1">
+            <h2 class="project-head">PROJECT NAME</h2>
+            <hr/>
+            <div class="project-body">
+
+                <div class="card-front">
+                    <h2 class="text-center pad">
+                            Project
+                            Image
+                            Sample
+                    </h2>
+                </div>
+
+                <div class="card-back">
+                        <button class="btn m-1" href="#">See Site</button>
+
+                        <a class="btn m-1" href="#">See code</a>
+                </div>
+
+            </div>
+        </div>
+            
+        <div class="project-card pad-1 m-1">
+            <h2 class="project-head">PROJECT NAME</h2>
+            <hr/>
+            <div class="project-body">
+
+                <div class="card-front">
+                    <h2 class="text-center pad">
+                            Project
+                            Image
+                            Sample
+                    </h2>
+                </div>
+
+                <div class="card-back">
+                        <button class="btn m-1" href="#">See Site</button>
+
+                        <a class="btn m-1" href="#">See code</a>
+                </div>
+
+            </div>
+        </div>
+            
+        <div class="project-card pad-1 m-1">
+            <h2 class="project-head">PROJECT NAME</h2>
+            <hr/>
+            <div class="project-body">
+
+                <div class="card-front">
+                    <h2 class="text-center pad">
+                            Project
+                            Image
+                            Sample
+                    </h2>
+                </div>
+
+                <div class="card-back">
+                        <button class="btn m-1" href="#">See Site</button>
+
+                        <a class="btn m-1" href="#">See code</a>
+                </div>
+
+            </div>
+        </div>
+            
+        <div class="project-card pad-1 m-1">
+            <h2 class="project-head">PROJECT NAME</h2>
+            <hr/>
+            <div class="project-body">
+
+                <div class="card-front">
+                    <h2 class="text-center pad">
+                            Project
+                            Image
+                            Sample
+                    </h2>
+                </div>
+
+                <div class="card-back">
+                        <button class="btn m-1" href="#">See Site</button>
+
+                        <a class="btn m-1" href="#">See code</a>
+                </div>
+
+            </div>
+        </div>
+            
+        <div class="project-card pad-1 m-1">
+            <h2 class="project-head">PROJECT NAME</h2>
+            <hr/>
+            <div class="project-body">
+
+                <div class="card-front">
+                    <h2 class="text-center pad">
+                            Project
+                            Image
+                            Sample
+                    </h2>
+                </div>
+
+                <div class="card-back">
+                        <button class="btn m-1" href="#">See Site</button>
+
+                        <a class="btn m-1" href="#">See code</a>
+                </div>
+
+            </div>
+        </div>
+            
+        <div class="project-card pad-1 m-1">
+            <h2 class="project-head">PROJECT NAME</h2>
+            <hr/>
+            <div class="project-body">
+
+                <div class="card-front">
+                    <h2 class="text-center pad">
+                            Project
+                            Image
+                            Sample
+                    </h2>
+                </div>
+
+                <div class="card-back">
+                        <button class="btn m-1" href="#">See Site</button>
+
+                        <a class="btn m-1" href="#">See code</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        </div>
+    </section>
 
 
 
+    <section id="contact" class="contact">
+
+        <h2 class="title text-center">Contact</h2>
+        <hr class="underline"/>
+
+            <form id="fs-frm" class="m-auto" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/lachlan.whelan1@gmail.com" method="post">
+                <fieldset>
+                  <label for="full-name">Full Name</label>
+                  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                  <label for="email-address">Email Address</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+                  <label for="message">Message</label>
+                  <textarea rows="5" name="message" id="message" placeholder="Message Me" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input class="btn" type="submit" value="Submit">
+              </form>
+    </section>
+
+    <footer class="footer text-center">
+
+        <div class="logo"><img src="images/logo.png"/></div>
+
+        <div class="contacts pad-2">
+            <a href="https://github.com/lachlanwhelan">Github</a>
+            <a href="https://www.linkedin.com/in/lachlan-whelan-666386179/">LinkedIn</a>
+            <a href="#">Resume</a>
+        </div>
+
+        <p class="pad-1">Website by Lachlan Whelan</p>
+    </footer>
 
 
 
+    <script type="module" src="main.js"></script>
 </body>
 </html>
