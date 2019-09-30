@@ -1,8 +1,5 @@
-import {log} from './log.js';
-import {flip,} from './events.js';
+import {flip, watchForMobile} from './events.js';
 
+watchForMobile();
 flip();
-
-
-//log();
 
