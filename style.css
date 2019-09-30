@@ -317,6 +317,7 @@ form{
 
 form > .btn {
     width: -webkit-fill-available;
+    -webkit-appearance: none;
     width: 90%;
 
 }
@@ -404,6 +405,8 @@ fieldset > label{
     font-weight: bold;
     color: white;
 }
+
+
 
 
 
