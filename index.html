@@ -5,256 +5,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lachlan Whelan | Front End Developer</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+<!--     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> -->
+    <!-- <link rel="icon" href="images/logo.ico" type="image/x-icon"> -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-<body>
+<body >
 
-    <header class="header">
-        <div class="header-grp pad-2">
-            <a class="logo"><img src="images/logo.png"/></a>
-            <a href="#contact">
-                    <button class="btn">Contact Me</button>
-            </a>
+    <nav id="#top">
+        <div class="logo"><h3>LW</h3></div>
+        <ul id="nav-menu">
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#work-section">Work</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+            <li><a href="/images/lachlan-whelan resume.pdf">Résumé</a></li>
+        </ul>
+        <div id="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        
-        <div class="main-heading text-center">
-            <h1 class="heading-primary">Lachlan <span class="shift">Whelan</span></h1>
-            <h3 class="heading-secondary">Front End Developer</h3>
-            <a class="m-2" href="#projects"><button class="btn">See Projects</button></a>
+    </nav>
+
+    <header>
+        <div class="title-grp">
+            <h1>Lachlan Whelan</h1>
+            <h3>Front-End Developer</h3>
+            <p>
+                I like to code things from scratch, 
+                and bring ideas to life in the browser. 
+            </p>
+            <div class="html-tag">
+                <span><</span>
+                <span>/></span>
+            </div>
+<!--             <section class="quote-section">
+                <q class="personal-quote">Pretty good at making websites</q>
+                <p class="author">-The guy who made this site</p>
+            </section> -->
+
+            <a href="#work-section"><button>Work</button></a>
         </div>
-        
     </header>
 
+    <main>
+        <section id="about-section">
+            <h2>About Me</h2>
 
-    <section class="about section text-center pad-2">
-        <h2 class="title text-center  mt-5">KNOWLEDGE</h2>
-        
-        <div class="cards">
-            
-            <div class="info-card ">
-                <h3>Front End</h3>
-                
-                <img class="infograph" src="images/webpage-infograph.png"/>
-
-
-                <ul class="list">
-                    <li>Html</li>
-                    <li>Css3/Sass</li>
-                    <li>Javascript</li>
-                </ul>
+            <p class="about">                 
+                I am a passionate and motivated Front-End Developer based in Sydney.
+                Proficient in semantic HTML, CSS and JavaScript, experienced in
+                working with modern libraries and frameworks, integrating Restful API
+                and transforming data into more enticing user accessible information.
+                I am looking to learn and grow in a collaborative environment where I
+                can contribute, share ideas, design and create beautiful user interfaces.
+            </p>
+            <div class="image-slider">
+                <div class="slider">
+                    <div id="lastClone" class="slide-item">
+                        <h3>API</h3>
+                        <p>Something Something</p>
+                    </div>
+                    <div class="slide-item">
+                        <div class="slide-overlay">
+                            <h3>Html5</h3>
+                            <p>Creating clear, structured and accessible layouts with semantic HTML</p>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="slide-overlay">
+                            <h3>CSS</h3>
+                            <p>Making ideas and concepts come to life with CSS</p>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="slide-overlay">
+                            <h3>Javascript</h3>
+                            <p>Adding functionality and user interaction with Javascript.</p>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="slide-overlay">
+                            <h3>API</h3>
+                            <p>Retrieving data from servers using Rest Api's.</p>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="slide-overlay">
+                            <h3>GIT</h3>
+                            <p>Tracking Changes with git</p>
+                        </div>
+                    </div>
+                    <div id="firstClone" class="slide-item">
+                        <h3>Html5</h3>
+                        <p>Something Something</p>
+                    </div>
+                </div>
+                <span class="controls" id="left"><img src="/images/001-back.png"/></span>
+                <span class="controls" id="right"><img src="/images/002-next.png"/></span>
             </div>
+        </section>
 
-
-            <div class="info-card ">
-                <h3>Deployment</h3>
-
-                <img class="infograph" src="images/cloud-infograph.png"/>
-
-
-                <ul class="list">
-                    <li>Git</li>
-                    <li>Github</li>
-                </ul>
+        <section id="work-section">
+            <h2>Work</h2>
+            <div class="work-list">
+                <a href="https://lachlanwhelan.com/depikt/" class="project">
+                    <img src="/images/Depikt.gif"/>
+                </a>
+                <a href="https://lachlanwhelan.com/wheresthefood/" class="project">
+                    <img src="/images/WheresTheFood.gif"/>
+                </a>
+                <a href="https://lachlanwhelan.com/gifgallery/" class="project">
+                    <img src="/images/Gif Gallery.gif"/>
+                </a>
+                <a href="https://lachlanwhelan.com/recipelog/" class="project">
+                    <img src="/images/React App.gif"/>
+                </a>
             </div>
+        </section>
 
-            <div class="info-card ">
-                    <h3>Frameworks</h3>
-    
-                    <img class="infograph" src="images/framework.png"/>
-    
-    
-                    <ul class="list">
-                        <li>Bootstrap</li>
-                        <li>React/Redux</li>
-                    </ul>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section class="projects">
-
-        <h2 id="projects" class="title text-center ">PROJECTS</h2>
-
-        <div class="project-grid">
-
-            
-        <div class="project-card pad-1 m-1">
-            <h2 class="project-head">PROJECT NAME</h2>
-            <hr/>
-            <div class="project-body">
-
-                <div class="card-front">
-                    <h2 class="text-center pad">
-                            Project
-                            Image
-                            Sample
-                    </h2>
-                </div>
-
-                <div class="card-back">
-                        <button class="btn m-1" href="#">See Site</button>
-
-                        <a class="btn m-1" href="#">See code</a>
-                </div>
-
-            </div>
-        </div>
-            
-        <div class="project-card pad-1 m-1">
-            <h2 class="project-head">PROJECT NAME</h2>
-            <hr/>
-            <div class="project-body">
-
-                <div class="card-front">
-                    <h2 class="text-center pad">
-                            Project
-                            Image
-                            Sample
-                    </h2>
-                </div>
-
-                <div class="card-back">
-                        <button class="btn m-1" href="#">See Site</button>
-
-                        <a class="btn m-1" href="#">See code</a>
-                </div>
-
-            </div>
-        </div>
-            
-        <div class="project-card pad-1 m-1">
-            <h2 class="project-head">PROJECT NAME</h2>
-            <hr/>
-            <div class="project-body">
-
-                <div class="card-front">
-                    <h2 class="text-center pad">
-                            Project
-                            Image
-                            Sample
-                    </h2>
-                </div>
-
-                <div class="card-back">
-                        <button class="btn m-1" href="#">See Site</button>
-
-                        <a class="btn m-1" href="#">See code</a>
-                </div>
-
-            </div>
-        </div>
-            
-        <div class="project-card pad-1 m-1">
-            <h2 class="project-head">PROJECT NAME</h2>
-            <hr/>
-            <div class="project-body">
-
-                <div class="card-front">
-                    <h2 class="text-center pad">
-                            Project
-                            Image
-                            Sample
-                    </h2>
-                </div>
-
-                <div class="card-back">
-                        <button class="btn m-1" href="#">See Site</button>
-
-                        <a class="btn m-1" href="#">See code</a>
-                </div>
-
-            </div>
-        </div>
-            
-        <div class="project-card pad-1 m-1">
-            <h2 class="project-head">PROJECT NAME</h2>
-            <hr/>
-            <div class="project-body">
-
-                <div class="card-front">
-                    <h2 class="text-center pad">
-                            Project
-                            Image
-                            Sample
-                    </h2>
-                </div>
-
-                <div class="card-back">
-                        <button class="btn m-1" href="#">See Site</button>
-
-                        <a class="btn m-1" href="#">See code</a>
-                </div>
-
-            </div>
-        </div>
-            
-        <div class="project-card pad-1 m-1">
-            <h2 class="project-head">PROJECT NAME</h2>
-            <hr/>
-            <div class="project-body">
-
-                <div class="card-front">
-                    <h2 class="text-center pad">
-                            Project
-                            Image
-                            Sample
-                    </h2>
-                </div>
-
-                <div class="card-back">
-                        <button class="btn m-1" href="#">See Site</button>
-
-                        <a class="btn m-1" href="#">See code</a>
-                </div>
-
-            </div>
-        </div>
-
-
-        </div>
-    </section>
-
-
-
-    <section id="contact" class="contact">
-
-        <h2 class="title text-center">Contact</h2>
-        <hr class="underline"/>
+        <section id="contact-section">
+        <h2>Contact</h2>
 
             <form id="fs-frm" class="m-auto" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/lachlan.whelan1@gmail.com" method="post">
                 <fieldset>
-                  <label for="full-name">Full Name</label>
+
                   <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                  <label for="email-address">Email Address</label>
                   <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
-                  <label for="message">Message</label>
                   <textarea rows="5" name="message" id="message" placeholder="Message Me" required=""></textarea>
                   <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                 </fieldset>
-                <input class="btn" type="submit" value="Submit">
+                <input class="btn" type="submit" value="Send">
               </form>
-    </section>
+        </section>
+    </main>
 
-    <footer class="footer text-center">
 
-        <div class="logo"><img src="images/logo.png"/></div>
-
-        <div class="contacts pad-2">
-            <a href="https://github.com/lachlanwhelan">Github</a>
-            <a href="https://www.linkedin.com/in/lachlan-whelan-666386179/">LinkedIn</a>
-            <a href="#">Resume</a>
-        </div>
-
-        <p class="pad-1">Website by Lachlan Whelan</p>
+    <footer>
+        <div id="socials">
+            <a href="https://github.com/lachlanwhelan"><i style="color: white" class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/lachlan-whelan-666386179/"><i style="color: white" class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+            <a href="mailto: lachlan.whelan1@gmail.com"><i style="color: white" class="fa fa-envelope-square fa-3x" aria-hidden="true"></i></a>
+          </div>
+          <p>Lachlan Whelan Website</p>
     </footer>
 
-
-
+    <a class="backToTop" href="#top"><img src="/images/up-arrow.png"/></a>
+    <div class="loader-wrapper"><span class="loader"></span></div>
     <script type="module" src="main.js"></script>
 </body>
 </html>
