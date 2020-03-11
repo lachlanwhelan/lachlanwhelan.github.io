@@ -188,7 +188,6 @@ header h1 {
 }
 
 .title-grp {
-    display: none;
     animation-name: fadeIn;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -231,6 +230,7 @@ button:focus {
 }
 
 .loader-wrapper {
+    display: none;
     position: absolute;
     top: 0;
     bottom: 0;
