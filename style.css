@@ -505,6 +505,11 @@ footer p {
         border-radius: 5px;
         margin: 1em
     }
+
+    video{
+        min-height: 100%;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width:733px) {
