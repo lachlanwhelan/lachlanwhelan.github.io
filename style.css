@@ -308,20 +308,39 @@ p {
     font-size: 1.2em
 }
 
-.slide-item:nth-child(1) {
-    background-color: rgb(235, 235, 235)
+.slide-item{
+    opacity: 0;
+}
+
+.appear{
+    opacity: 1;
+    transition: 3s opacity ease;
+}
+
+.appear:nth-child(2){
+    transition-delay: 0.3s;
+}
+.appear:nth-child(3){
+    transition-delay: 0.6s;
+}
+.appear:nth-child(4){
+    transition-delay: 0.9s;
+}
+.appear:nth-child(5){
+    transition-delay: 1.2s;
+}
+.appear:nth-child(6){
+    transition-delay: 1.5s;
 }
 
 .slide-item:nth-child(2) {
-    background-color: rgb(163, 163, 162);
     background-image: url(/images/iconOne.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center
+    background-position: center;
 }
 
 .slide-item:nth-child(3) {
-    background-color: rgb(163, 163, 162);
     background-image: url(/images/iconTwo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -329,7 +348,6 @@ p {
 }
 
 .slide-item:nth-child(4) {
-    background-color: rgb(163, 163, 162);
     background-image: url(/images/iconThree.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -337,7 +355,6 @@ p {
 }
 
 .slide-item:nth-child(5) {
-    background-color: rgb(163, 163, 162);
     background-image: url(/images/iconFour.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -345,7 +362,6 @@ p {
 }
 
 .slide-item:nth-child(6) {
-    background-color: rgb(163, 163, 162);
     background-image: url(/images/iconFive.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -373,6 +389,12 @@ p {
 
 #right {
     right: 0
+}
+
+.work-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
 }
 
 .project {
@@ -492,11 +514,6 @@ footer p {
     input::placeholder,
     textarea::placeholder {
         color: rgb(7, 6, 6)
-    }
-    .work-list {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap
     }
     .project {
         background-color: rgb(195, 196, 196);

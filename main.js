@@ -22,8 +22,11 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block"
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 800) {
+        mybutton.style.display = "block";
+        document.querySelectorAll('.slide-item').forEach(element => {
+            element.classList.add('appear');
+        })
     } else {
         mybutton.style.display = "none"
     }
