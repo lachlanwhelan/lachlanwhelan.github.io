@@ -4,155 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lachlan Whelan | Front End Developer</title>
+    <title>Lachlan Whelan | Web Developer</title>
 <!--     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> -->
     <!-- <link rel="icon" href="images/logo.ico" type="image/x-icon"> -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resets.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-<body >
+<body>
 
-    <nav id="#top">
-        <div class="logo"><h3>LW</h3></div>
-        <ul id="nav-menu">
-            <li><a href="#about-section">About</a></li>
-            <li><a href="#work-section">Work</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-            <li><a href="/images/Lachlan_whelan resume.pdf">Résumé</a></li>
-        </ul>
-        <div id="toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
-
-    <header>
-        <div class="title-grp">
-            <h1>Lachlan Whelan</h1>
-            <h3>Front-End Developer</h3>
-            <p>
-                I like to code things from scratch, 
-                and bring ideas to life in the browser. 
-            </p>
-            <div class="html-tag">
-                <span><</span>
-                <span>/></span>
-            </div>
-<!--             <section class="quote-section">
-                <q class="personal-quote">Pretty good at making websites</q>
-                <p class="author">-The guy who made this site</p>
-            </section> -->
-
-            <a href="#work-section"><button>Work</button></a>
-        </div>
-    </header>
 
     <main>
-        <section id="about-section">
-            <h2>About Me</h2>
 
-            <p class="about">                 
-                I am a passionate and motivated Front-End Developer based in Sydney.
-                Proficient in semantic HTML, CSS and JavaScript, experienced in
-                working with modern libraries and frameworks, integrating Restful API
-                and transforming data into more enticing user accessible information.
-                I am looking to learn and grow in a collaborative environment where I
-                can contribute, share ideas, design and create beautiful user interfaces.
-            </p>
-            <div class="image-slider">
-                <div class="slider">
-                    <div id="lastClone" class="slide-item">
-                        <h3>API</h3>
-                        <p>Something Something</p>
+        <header class="view header" id="intro-section">
+        
+            <section class="header__banner">
+                <h1 class="banner__name">Lachlan J. Whelan</h1>
+                <h2 class="banner__title">Web Developer</h2>
+            </section>
+
+            <p>I design and code beautifully simple things, and I love what I do.</p>
+    
+        </header>
+
+
+
+        <section class="view" id="about-section">
+            <div class="content">
+               <div>
+                <h1 class="content__title">About</h1>
+                <p class="content__text">Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+                
+               </div>
+                <div class="content__image">
+                    <img src="https://images.unsplash.com/photo-1591961310354-91ca99664c65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjBwb3J0cmFpdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"/>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="view" id="skill-section">
+            <div class="content">
+                
+                <div>
+                    <h1 class="content__title">Skillset</h1>
+                    <p class="content__sub">I have a range of skills I use to achieve the best possible out come for the end user.</p>
+                </div>
+                
+                <div class="skills">
+                  
+                    <div class="skill__item">
+                        <i class="fas fa-pen-nib fa-2x"></i>
+                        <h2>Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae maiores, quisquam repudiandae quia culpa tenetur illum iste quae.</p>
                     </div>
-                    <div class="slide-item">
-                        <div class="slide-overlay">
-                            <h3>Html5</h3>
-                            <p>Creating clear, structured and accessible layouts with semantic HTML</p>
-                        </div>
+
+                    <div class="skill__item">
+                        <i class="fas fa-code fa-2x"></i>
+                        <h2>Front-End</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae maiores, quisquam repudiandae quia culpa tenetur illum iste quae.</p>
                     </div>
-                    <div class="slide-item">
-                        <div class="slide-overlay">
-                            <h3>CSS</h3>
-                            <p>Making ideas and concepts come to life with CSS</p>
-                        </div>
+
+                    <div class="skill__item fa-2x">
+                        <i class="fas fa-server"></i>
+                        <h2>Back-End</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae maiores, quisquam repudiandae quia culpa tenetur illum iste quae.</p>
+                    </div>             
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="view" id="portfolio-section">
+
+            <div class="content">
+                <h1 class="content__title">My Recent Work</h1>
+                <p class="content__sub">Here are some web development projects I've worked on recently.</p>
+
+                <div class="portfolio">
+                    <div class="portfolio__item">
+                        <figure class="portfolio__inner">
+                            <img class="" src="https://mattfarley.ca/img/projects/wfdesignbuild.png"/>
+                            <figcaption class="portfolio__info">
+                                <p>High-end, custom residential renovaters serving Fraser Valley homeowners.</p>
+                                <a href="#" class="visit__link">Visit Website</a>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div class="slide-item">
-                        <div class="slide-overlay">
-                            <h3>Javascript</h3>
-                            <p>Adding functionality and user interaction with Javascript.</p>
-                        </div>
+                
+                    <div class="portfolio__item">
+                        <figure class="portfolio__inner">
+                            <img class="" src="https://mattfarley.ca/img/projects/awg2020.png"/>
+                            <figcaption class="portfolio__info">
+                                <p>Uniting First Nations culture and community through winter sports competition.</p>
+                                <a href="#" class="visit__link">Visit Website</a>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div class="slide-item">
-                        <div class="slide-overlay">
-                            <h3>API</h3>
-                            <p>Retrieving data from servers using Rest Api's.</p>
-                        </div>
+
+                    <div class="portfolio__item">
+                        <figure class="portfolio__inner">
+                            <img class="" src="/images/iceworks.png"/>
+                            <figcaption class="portfolio__info">
+                                <p>Blockchain pioneers bringing transparency, trust, and security to supply.</p>
+                                <a href="#" class="visit__link">Visit Website</a>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div class="slide-item">
-                        <div class="slide-overlay">
-                            <h3>GIT</h3>
-                            <p>Tracking Changes with git</p>
-                        </div>
+
+                    <div class="portfolio__item">
+                        <figure class="portfolio__inner">
+                            <img class="" src="/images/moviebuff.png"/>
+                            <figcaption class="portfolio__info">
+                                <p>Business savvy tech experts helping forward thinking companies get things done.</p>
+                                <a href="#" class="visit__link">Visit Website</a>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div id="firstClone" class="slide-item">
-                        <h3>Html5</h3>
-                        <p>Something Something</p>
+
+                    <div class="portfolio__item">
+                        <figure class="portfolio__inner">
+                            <img class="" src="/images/thedailynews.png"/>
+                            <figcaption class="portfolio__info">
+                                <p>Vancouver's tower crane rental service and support leader since 1974.</p>
+                                <a href="#" class="visit__link">Visit Website</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="portfolio__item">
+                        <figure class="portfolio__inner">
+                            <img class="" src="/images/madisons.png"/>
+                            <figcaption class="portfolio__info">
+                                <p>Results-oriented, responsive and flexible full service civil engineering firm.</p>
+                                <a href="#" class="visit__link">Visit Website</a>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
-                <span class="controls" id="left"><img src="/images/001-back.png"/></span>
-                <span class="controls" id="right"><img src="/images/002-next.png"/></span>
             </div>
+
         </section>
 
-        <section id="work-section">
-            <h2>Work</h2>
-            <div class="work-list">
-                <a href="https://lachlanwhelan.com/depikt/" class="project">
-                    <img src="/images/Depikt.gif"/>
-                </a>
-                <a href="https://lachlanwhelan.com/wheresthefood/" class="project">
-                    <img src="/images/WheresTheFood.gif"/>
-                </a>
-                <a href="https://lachlanwhelan.com/gifgallery/" class="project">
-                    <img src="/images/Gif Gallery.gif"/>
-                </a>
-                <a href="https://lachlanwhelan.com/recipelog/" class="project">
-                    <img src="/images/React App.gif"/>
-                </a>
+
+
+        <footer class="footer">
+            <p></p>
+
+            <div class="socials">
+                <a class="social__link" href="#"><i class="fab fa-1x fa-linkedin-in"></i></a>
+                <a class="social__link" href="#"><i class="fab fa-1x fa-github-alt"></i></a>
+                <a class="social__link" href="#"><i class="far fa-1x fa-envelope"></i></a>
             </div>
-        </section>
 
-        <section id="contact-section">
-        <h2>Contact</h2>
-
-            <form id="fs-frm" class="m-auto" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/lachlan.whelan1@gmail.com" method="post">
-                <fieldset>
-
-                  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                  <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
-                  <textarea rows="5" name="message" id="message" placeholder="Message Me" required=""></textarea>
-                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                </fieldset>
-                <input class="btn" type="submit" value="Send">
-              </form>
-        </section>
+            <p class="">Created by me © <span class="copyright-year">2021</span></p>
+        </footer>
     </main>
 
 
-    <footer>
-        <div id="socials">
-            <a href="https://github.com/lachlanwhelan"><i style="color: white" class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/lachlan-whelan-666386179/"><i style="color: white" class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-            <a href="mailto: lachlan.whelan1@gmail.com"><i style="color: white" class="fa fa-envelope-square fa-3x" aria-hidden="true"></i></a>
-          </div>
-          <p>Lachlan Whelan Website</p>
-    </footer>
-
-    <a class="backToTop" href="#top"><img src="/images/up-arrow.png"/></a>
-    <div class="loader-wrapper"><span class="loader"></span></div>
+   
     <script type="module" src="main.js"></script>
 </body>
 </html>
