@@ -22,6 +22,10 @@ a{
     color: white;
 }
 
+a:active{
+    outline: none;
+}
+
 p{
     line-height: 30px;
     font-size: 18px;
@@ -48,6 +52,29 @@ img{
     align-items: center;
 }
 
+
+.nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav__resume{
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.nav__logo{
+    display: block;
+    max-width: 80px;
+    padding: 10px;
+}
 
 .header{
     text-align: center;
@@ -123,6 +150,11 @@ img{
     margin: 20px;
     padding: 10px;
     max-width: 400px;
+}
+
+
+.skill__item i {
+    color: rgb(0, 0, 0);
 }
 
 .skill__item h2{
@@ -219,14 +251,18 @@ img{
 }
 
 .footer{
-    min-height: 50vh;
+    min-height: 40vh;
     flex-direction: column;
     margin-top: 3em;
 }
 
+.footer__logo{
+    max-width: 100px;
+}
+
 .social__link{
     position: relative;
-    margin: 5px;
+    margin: 15px;
     border: 2px solid rgba(255, 255, 255, 0.432);
     width: 47px;
     height: 47px;
@@ -248,6 +284,10 @@ img{
     color: black;
 }
 
+
+.copyright{
+    color: rgba(255, 255, 255, 0.432);
+}
 
 @media only screen and (min-width: 768px) {
 
