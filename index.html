@@ -9,13 +9,11 @@
     <!-- <link rel="icon" href="images/logo.ico" type="image/x-icon"> -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="resets.css"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/resets.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 </head>
 <body>
-
-
-
     <main>
 
         <nav class="nav">
@@ -28,12 +26,12 @@
 
         <header class="view header" id="intro-section">
         
-            <section class="header__banner">
-                <h1 class="banner__name">Lachlan J. Whelan</h1>
+            <section class=" header__banner wow fadeInDown">
+                <h1 class="banner__name ">Lachlan J. Whelan</h1>
                 <h2 class="banner__title">Web Developer</h2>
             </section>
 
-            <p>I design and code beautifully simple things, and I love what I do.</p>
+            <p class="wow fadeInDown" data-wow-duration="1s" >I design and code beautifully simple things, and I love what I do.</p>
     
         </header>
 
@@ -41,7 +39,7 @@
 
         <section class="view" id="about-section">
             <div class="content">
-               <div>
+               <div class="wow fadeIn" >
                 <h1 class="content__title">About</h1>
                 <p class="content__text">
                     Finished my studies in software development in 2019, started my career in 2020 as a junior web developer. Since that time, I've worked
@@ -51,7 +49,7 @@
                </div>
               
                 <div class="content__image">
-                    <img src="https://images.unsplash.com/photo-1591961310354-91ca99664c65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjBwb3J0cmFpdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"/>
+                    <img class="wow fadeIn" src="https://images.unsplash.com/photo-1591961310354-91ca99664c65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjBwb3J0cmFpdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"/>
 
                 </div>
               
@@ -62,29 +60,29 @@
         <section class="view" id="skill-section">
             <div class="content">
                 
-                <div>
+                <div class="wow fadeInDown">
                     <h1 class="content__title">Skillset</h1>
                     <p class="content__sub">I have a range of skills I use to achieve the best possible out come for the end user.</p>
                 </div>
                 
                 <div class="skills">
                   
-                    <div class="skill__item">
+                    <div class="skill__item wow fadeInUp">
                         <i class="fas fa-pen-nib fa-2x"></i>
                         <h2>Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae maiores, quisquam repudiandae quia culpa tenetur illum iste quae.</p>
+                        <p>I focus on design before anything else. I use tools like invision and canva to create wireframes and mock-ups, with a focus on clean design and user experience.</p>
                     </div>
 
-                    <div class="skill__item">
+                    <div class="skill__item wow fadeInUp">
                         <i class="fas fa-code fa-2x"></i>
                         <h2>Front-End</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae maiores, quisquam repudiandae quia culpa tenetur illum iste quae.</p>
+                        <p>I like creating clean and responsive user interfaces from scratch using Semantic Html, CSS and Vanilla JavaScript but I also use frameworks such as React, SASS and Bootstrap.</p>
                     </div>
 
-                    <div class="skill__item fa-2x">
-                        <i class="fas fa-server"></i>
+                    <div class="skill__item wow fadeInUp">
+                        <i class="fas fa-server fa-2x"></i>
                         <h2>Back-End</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae maiores, quisquam repudiandae quia culpa tenetur illum iste quae.</p>
+                        <p>I'm new to the backend but I have experience designing and creating database entity relationships, Object Oriented Programming and creating API routes with ASP.NET MVC.</p>
                     </div>             
                 </div>
             </div>
@@ -96,11 +94,13 @@
         <section class="view" id="portfolio-section">
 
             <div class="content">
-                <h1 class="content__title">My Recent Work</h1>
+                <div class="wow fadeInDown">
+                    <h1 class="content__title">My Recent Work</h1>
                 <p class="content__sub">Here are some web development projects I've worked on recently.</p>
+                </div>
 
                 <div class="portfolio">
-                    <div class="portfolio__item">
+                    <div class="portfolio__item wow fadeInUp">
                         <figure class="portfolio__inner">
                             <img class="" src="https://mattfarley.ca/img/projects/wfdesignbuild.png"/>
                             <figcaption class="portfolio__info">
@@ -110,7 +110,7 @@
                         </figure>
                     </div>
                 
-                    <div class="portfolio__item">
+                    <div class="portfolio__item wow fadeInUp">
                         <figure class="portfolio__inner">
                             <img class="" src="/images/oddlok.png"/>
                             <figcaption class="portfolio__info">
@@ -120,7 +120,7 @@
                         </figure>
                     </div>
 
-                    <div class="portfolio__item">
+                    <div class="portfolio__item wow fadeInUp">
                         <figure class="portfolio__inner">
                             <img class="" src="/images/iceworks.png"/>
                             <figcaption class="portfolio__info">
@@ -130,7 +130,7 @@
                         </figure>
                     </div>
 
-                    <div class="portfolio__item">
+                    <div class="portfolio__item wow fadeInUp">
                         <figure class="portfolio__inner">
                             <img class="" src="/images/moviebuff.png"/>
                             <figcaption class="portfolio__info">
@@ -140,7 +140,7 @@
                         </figure>
                     </div>
 
-                    <div class="portfolio__item">
+                    <div class="portfolio__item wow fadeInUp">
                         <figure class="portfolio__inner">
                             <img class="" src="/images/thedailynews.png"/>
                             <figcaption class="portfolio__info">
@@ -150,7 +150,7 @@
                         </figure>
                     </div>
 
-                    <div class="portfolio__item">
+                    <div class="portfolio__item wow fadeInUp">
                         <figure class="portfolio__inner">
                             <img class="" src="/images/madisons.png"/>
                             <figcaption class="portfolio__info">
@@ -182,7 +182,9 @@
     </main>
 
 
-   
-    <script type="module" src="main.js"></script>
+   <script src="js/wow.min.js"></script>
+    <script>
+       new WOW().init();
+    </script>
 </body>
 </html>

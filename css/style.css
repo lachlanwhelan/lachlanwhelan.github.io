@@ -44,6 +44,10 @@ img{
 }
 
 
+.wow{
+    visibility: hidden;
+}
+
 .view{
     min-height: 100vh;
     display: flex;
